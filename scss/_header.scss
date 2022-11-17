@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+
+.navbar {
+  div {
+    display: flex;
+    justify-content: center;
+
+    .logo {
+      border-radius: 100%;
+    }
+  }
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  li {
+    list-style: none;
+    padding: 20px;
+    font-size: 30px;
+
+    a {
+      text-decoration: none;
+      color: $color-anchor;
+      &:hover {
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    }
+  }
+}

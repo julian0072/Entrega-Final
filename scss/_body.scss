@@ -1,0 +1,54 @@
+body {
+  background-color: $color-body;
+  font-size: 30px;
+
+  .imagenPrincipal {
+    width: 650px;
+    height: 650px;
+    padding-top: 100px;
+    transition: 1s ease;
+
+    &:hover {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      transition: 1s ease;
+    }
+  }
+
+  .imgSecundaria {
+    transition: 1s ease;
+
+    &:hover {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      transition: 1s ease;
+    }
+  }
+  .logo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .imagenSobreMi {
+    width: 600px;
+    height: 600px;
+  }
+
+  .imgPortafolio {
+    transition: 1s ease;
+
+    &:hover {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      transition: 1s ease;
+    }
+  }
+
+  .imagenContacto {
+    width: 800px;
+    height: 800px;
+  }
+}
